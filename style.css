@@ -52,6 +52,7 @@ body {
 
 #game {
     display: none;
+    text-align: center;
 }
 
 #board {
@@ -61,5 +62,40 @@ body {
     background-color: #ffffff;
     border-radius: 5px;
     box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) ;
+    text-align: center;
+    padding: 5px 0 0 0;
+}
 
+.piece {
+    display: inline-flex;
+    background-color: #ede7f6;
+    margin: 0 0 3px 3px;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Roboto;
+}
+
+.empty-piece {
+    color: #ede7f6;
+}
+
+#title {
+    color: #fafafa;
+    text-align: center;
+    width: 100%;
+    font-size: 40px;
+    padding: 20px 0 20px 0;
+}
+
+
+#home-button {
+    background-color: #fafafa;
+    min-width: 130px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+    border: 2px solid #dddddd;
+    cursor: pointer;
 }
